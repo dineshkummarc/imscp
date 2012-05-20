@@ -10,7 +10,8 @@
 			<apache_itk>apache2-mpm-itk</apache_itk>
 			<apache_itk>apache2-suexec</apache_itk>
 			<apache_itk>libapache2-mod-php5</apache_itk>
-			<nginx>nginx<nginx>
+			<nginx>nginx</nginx>
+                        <nginx>php5-fpm</nginx>
 		</alternative>
 	</httpd>
 	<po>
