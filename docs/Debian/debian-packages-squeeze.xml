@@ -10,10 +10,7 @@
 			<apache_itk>apache2-mpm-itk</apache_itk>
 			<apache_itk>apache2-suexec</apache_itk>
 			<apache_itk>libapache2-mod-php5</apache_itk>
-			<apache_nginx>apache2</apache_nginx>
-			<apache_nginx>apache2-prefork-dev</apache_nginx>
-			<apache_nginx>libapache2-mod-rpaf</apache_nginx>
-			<apache_nginx>nginx</apache_nginx>
+			<nginx>nginx<nginx>
 		</alternative>
 	</httpd>
 	<po>
@@ -98,7 +95,7 @@
 		<library>libtimedate-perl</library>
 		<library>libxml-parser-perl</library>
 		<library>libxml-simple-perl</library>
-		<library>libwww-perl</libryry>
+		<library>libwww-perl</library>
 	</perl>
 	<other>bash</other>
 	<other>bzip2</other>
