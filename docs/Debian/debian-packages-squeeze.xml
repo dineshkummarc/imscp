@@ -10,6 +10,10 @@
 			<apache_itk>apache2-mpm-itk</apache_itk>
 			<apache_itk>apache2-suexec</apache_itk>
 			<apache_itk>libapache2-mod-php5</apache_itk>
+			<apache_nginx>apache2</apache_nginx>
+			<apache_nginx>apache2-prefork-dev</apache_nginx>
+			<apache_nginx>libapache2-mod-rpaf</apache_nginx>
+			<apache_nginx>nginx</apache_nginx>
 		</alternative>
 	</httpd>
 	<po>
@@ -62,6 +66,7 @@
 		<other>perl-base</other>
 		<library>libperl5.10</library>
 		<library>libberkeleydb-perl</library>
+		<library>libcompress-zlib-perl</library>
 		<library>libcrypt-blowfish-perl</library>
 		<library>libcrypt-cbc-perl</library>
 		<library>libcrypt-passwdmd5-perl</library>
@@ -74,6 +79,7 @@
 		<library>libdbi-perl</library>
 		<library>libdigest-md5-perl</library>
 		<library>libemail-valid-perl</library>
+		<library>libemail-simple-perl</library>
 		<library>libfile-copy-recursive-perl</library>
 		<library>libfile-mimeinfo-perl</library>
 		<library>libio-socket-inet6-perl</library>
@@ -92,7 +98,7 @@
 		<library>libtimedate-perl</library>
 		<library>libxml-parser-perl</library>
 		<library>libxml-simple-perl</library>
-		<library>libemail-simple-perl</library>
+		<library>libwww-perl</libryry>
 	</perl>
 	<other>bash</other>
 	<other>bzip2</other>
